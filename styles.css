@@ -1,0 +1,18 @@
+/*using tags*/
+body{                   
+    color: red
+}
+h1{
+    color:blue
+}
+h2{
+    color: green;
+}
+/*using id for a particular element as per dummy id name given. access by #id*/
+#lib-header{
+    color: grey
+}
+/*using class for a particular element, access by .classname*/
+.para{
+    color:pink
+}
