@@ -1,18 +1,17 @@
-/*using tags*/
-body{                   
-    color: red
+@import url(https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet);
+
+body{
+    font-family: 'Mukta', sans-serif;
 }
-h1{
-    color:blue
+
+/**@container**/
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
-h2{
-    color: green;
+
+.container-center{
+    max-width: 600px;
+    margin:auto;
 }
-/*using id for a particular element as per dummy id name given. access by #id*/
-#lib-header{
-    color: grey
-}
-/*using class for a particular element, access by .classname*/
-.para{
-    color:pink
-}
+
