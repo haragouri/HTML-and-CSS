@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet);
 
+
 :root{
     --primary-color: #84cc16
 }
@@ -12,11 +13,13 @@ body{
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
+    /* text-align: left; */
 }
 
 .container-center{
     max-width: 600px;
     margin:auto;
+    text-align: center;
 }
 
 /**@links**/
@@ -67,6 +70,7 @@ body{
 
 .hero{
     padding: 2rem;
+    text-align: center;
 }
 .hero .hero-img{
     max-width: 350px;
@@ -98,4 +102,6 @@ body{
     background-color: var(--primary-color);
     color: white;
     border-top-right-radius: 1rem;
+    /* display: block; */
+    text-align: center;
 }
