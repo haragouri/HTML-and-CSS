@@ -8,6 +8,41 @@ body{
     font-family: 'Mukta', sans-serif;
 }
 
+/**navigation**/
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+.nav-brand{
+    font-weight: bold;
+}
+.nav-align{
+    text-align: right;
+}
+.navigation .link{
+    color: white
+}
+
+/**header**/
+
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    padding-top: 1rem;
+    color: grey;
+    text-align: center;
+}
+.hero .hero-heading .hero-inverted{
+    color: var(--primary-color);
+}
+
 /**@container**/
 .container{
     padding-left: 1rem;
@@ -46,44 +81,10 @@ body{
     padding: 0rem 0.5rem;
 }
 
-
-/**navigation**/
-.navigation{
-    background-color: var(--primary-color);
-    color: white;
-    padding: 1rem;
-}
-.nav-brand{
-    font-weight: bold;
-}
-.nav-align{
-    text-align: right;
-}
-.navigation .link{
-    color: white
-}
-
-/**header**/
-
-.hero{
-    padding: 2rem;
-}
-.hero .hero-img{
-    max-width: 350px;
-    display: block;
-    margin: auto;
-}
-.hero .hero-heading{
-    padding-top: 1rem;
-    color: grey
-}
-.hero .hero-heading .hero-inverted{
-    color: var(--primary-color);
-}
-
 /*sections*/
 .section {
     padding: 2rem;
+    text-align: center;
 }
 .section h1{
     text-align: center;
@@ -98,4 +99,5 @@ body{
     background-color: var(--primary-color);
     color: white;
     border-top-right-radius: 1rem;
+    text-align: center;
 }
